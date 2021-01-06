@@ -1,0 +1,18 @@
+/* <FONTS>=================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@font-face {
+	font-family: 'Play-bold';
+	src: url('../fonts/Play-Bold.eot');
+	src: local('☺'), url('../fonts/Play-Bold.woff') format('woff'), url('../fonts/Play-Bold.ttf') format('truetype'), url('../fonts/Play-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Uni-Sans-Heavy';
+	src: url('../fonts/Uni-Sans-Heavy.eot');
+	src: local('☺'), url('../fonts/Uni-Sans-Heavy.woff') format('woff'), url('../fonts/Uni-Sans-Heavy.ttf') format('truetype'), url('../fonts/Uni-Sans-Heavy.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* </FONTS>=================================================================================*/

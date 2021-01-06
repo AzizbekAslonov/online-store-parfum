@@ -1,0 +1,239 @@
+
+.checkout {
+   margin-bottom: 30px;
+}
+.checkout__title {
+   margin: 0 0 15px 0;
+}
+.checkout__content {
+}
+.content-checkout {
+   padding: 20px 45px;
+   background: #f1f0f0;
+   margin-bottom: 40px;
+}
+.content-checkout__nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+.content-checkout__item{
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #3cbaca;
+   text-transform: uppercase;
+   font-weight: 600;
+   padding: 0 20px;
+   letter-spacing: 0.5px;
+   color: #fff;
+   cursor: pointer;
+   transition: 0.5s;
+   margin: 0 0 7px 0;
+   border-radius: 25px;
+}
+.content-checkout__item:hover{
+   background: #257b86;
+}
+.content-checkout__body {
+}
+.content-checkout__block {
+}
+.content-checkout__form {
+}
+.checkout__content {
+}
+.checkout__order {
+}
+.order-checkout {
+}
+.order-checkout__title {
+   margin-bottom: 30px;
+}
+.order-checkout__items {
+}
+.order-checkout__item {
+}
+.item-order {
+   display: flex;
+   padding: 25px 40px 15px 15px;
+   border: 1px solid #eeeeee;
+   align-items: center;
+   position: relative;
+}
+.item-order__content {
+   flex: 0 0 50%;
+   display: flex;
+   align-items: center;
+}
+.item-order__image {
+   flex: 0 0 110px;
+}
+.item-order__image img{
+   max-width: 100%;
+}
+.item-order__body {
+   flex: 1 1 auto;
+   padding: 0 0 0 25px;
+}
+.item-order__title {
+   letter-spacing: 1px;
+   color: #36949f;
+   line-height: 16px;
+   margin: 0 0 10px 0;
+   display: inline-block;
+}
+.item-order__title span{
+   font-weight: 900;
+}
+.item-order__price {
+   color: #333;
+   font-size: 24px;
+   font-weight: 900;
+}
+.item-order__total {
+   flex: 1 1 auto;
+   text-align: right;
+}
+.item-order__label {
+   text-transform: uppercase;
+   color: #999;
+   font-size: 16px;
+   margin: 0 0 7px 0;
+}
+.item-order__delete {
+   position: absolute;
+   top: 12px;
+   right: 15px;
+   font-size: 18px;
+   font-weight: 600;
+   color: #333;
+   cursor: pointer;
+}
+.item-order__delete:hover{
+   color: #f68038;
+}
+.order-checkout__footer {
+   text-align: right;
+   padding: 25px 10px 0 0;
+}
+.order-checkout__total {
+   margin-bottom: 15px;
+   font-weight: 900;
+   color: #333333;
+   text-transform: uppercase;
+   font-size: 24px;
+}
+.order-checkout__total span{
+   color: #f68038;
+   font-size: 36px;
+}
+.order-checkout__btn {
+   display: inline-flex;
+   border-radius: 15px;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   padding: 0 15px;
+   height: 35px;
+   background: #f68038;
+   transition: 0.3s;
+   font-weight: 500;
+   letter-spacing: 0.4px;
+   font-size: 15px;
+   text-transform: uppercase;
+}
+.order-checkout__btn:hover{
+   background: #da661f;
+}
+.form-checkout {
+   display: flex;
+   margin: 0 -15px;
+}
+.form-checkout__column {
+   flex: 0 1 50%;
+   padding: 0 15px;
+}
+.form-checkout__line {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.form-checkout__line:last-child{
+   margin: 0;
+}
+.form-checkout__label {
+   flex: 0 0 115px;
+   color: #333333;
+   font-weight: 700;
+}
+.form-checkout__label span{
+   color: #f68038;
+}
+.form-checkout__input {
+   flex: 1 1 auto;
+   padding-left: 15px;
+}
+.form-checkout__input input{
+   padding: 0 8px;
+   width: 100%;
+   height: 28px;
+}
+.form-checkout__text {
+   color: #666666;
+   line-height: 18px;
+   font-weight: 300;
+}
+.form-checkout__text p{
+   margin-bottom: 20px;
+}
+.form-checkout__text p:last-child{margin: 0;}
+
+
+/* Vendors */
+.hide{
+   display: none;
+}
+.fa-times{
+color: #000000 !important;
+}
+@media(max-width: 1060px){
+   .content-checkout__nav {display: block;text-align: center;}
+   .content-checkout {
+      padding: 15px;
+   }
+   .form-checkout {
+      display: block;
+   }
+   .form-checkout__column:first-child{
+      margin-bottom:35px;
+   }
+   .form-checkout__input {
+      padding: 0;
+   }
+}
+
+@media(max-width: 678px){
+   .item-order {
+      padding: 15px 30px 15px 15px;
+   }
+   .item-order__body {
+      padding: 0 0 0 10px;
+   }
+   .item-order__price {
+      font-size: 18px;
+   }
+   .item-order__label {
+      font-size: 15px;
+   }
+   .order-checkout__item{
+      flex-wrap: wrap; 
+   }
+   .order-checkout__item>div{
+      flex: 1 1 auto;
+   }
+
+}
+
